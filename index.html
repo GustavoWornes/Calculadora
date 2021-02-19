@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="content">
+        <div id="content-app">
+            <div class="visor">
+                <input type='text' id='result' readonly value='0' />
+                <input type='text' id='tela' readonly value='0' />
+            </div>
+        </div>
+        <div id="botoes">
+            <button class='operador' id='porcento'>%</button>
+            <button id="limpatudo">C</button>
+            <button id="limpa">CE</button>
+            <button id='delete'>&larr; </button>
+
+            <button class='operador' id='fracao'>¹/<small>x</small></button>
+            <button class='operador' id="pot">x²</button>
+            <button class='operador' id='raiz'>&radic;</button>
+            <button class='operador' id='divide'>/</button>
+
+            <button class='botao' id='7'>7</button>
+            <button class='botao' id='8'>8</button>
+            <button class='botao' id='9'>9</button>
+            <button class='operador' id="mult">*</button>
+            
+            <button class='botao' id='4'>4</button>
+            <button class='botao' id='5'>5</button>
+            <button class='botao' id='6'>6</button>
+            <button class='operador' id='sub'>-</button>
+            
+            <button class='botao' id='1'>1</button>
+            <button class='botao' id='2'>2</button>
+            <button class='botao' id='3'>3</button>
+            <button class='operador' id="soma">+</button>
+            
+            <button class='botao' id='zero'>0</button>
+            <button class='botao' id='ponto'>.</button>
+            <button class='operador' id='negativo'><small>+/-</small></button>
+            <button class='operador' id='calcular'>=</button>
+            
+        </div>
+    </div>
+    <footer>
+        Equipe: Gabriela Feddersen | Gustavo Henrique | Henrique Sacht | Sidney Andrade
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
